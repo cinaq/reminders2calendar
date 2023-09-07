@@ -21,6 +21,10 @@ Background info located at https://cinaq.com/blog/2022/11/22/the-missing-link-be
 
 ## Changelog
 
+### 2023-09-07 [icloud link](https://www.icloud.com/shortcuts/cdfc2070bf7f4c159a1ad6e8a1b66a90)
+
+- Improved the license notes and probably some unknown refactoring as it's hard to trace back due to binary format
+
 ### 2023-06-21 [icloud link](https://www.icloud.com/shortcuts/6a2dc180452241409f4ecf067380693a)
 
 - bugfix to mark completed reminders older than today
