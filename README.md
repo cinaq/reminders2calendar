@@ -6,12 +6,13 @@ Background info located at https://cinaq.com/blog/2022/11/22/the-missing-link-be
 
 ## Installation
 
+> If you have existing shortcut versions, remove them, download from this repo and import them again. You can keep your personalized shortcuts.
+
 ### iOS (iphone, ipad)
 
 - Open Shortcuts.app
 - Reminders list name: this is the name of your reminders list. It also must match with your calendar name.
-- Import [Reminders2Calendar](https://www.icloud.com/shortcuts/310cffa3a4254701bb8ead6ee33e8854) into your shortcuts on your iPhone.
-- Create a new shortcut. I call it **Reminders2Calendar Personal**
+- Import your shortcuts on your iPhone.
 
 ### Mac OSX (macbook)
 
@@ -19,23 +20,39 @@ Background info located at https://cinaq.com/blog/2022/11/22/the-missing-link-be
 - import the shortcut files from this repo
 - configure the shortcuts to your liking
 
+
+## Sample usage Reminders2Calendar
+
+Leverages a helper loop shortcut contributed by @schaafjs
+
+![Reminders2Calendar](images/usage-reminders.png)
+
+## Sample usage Jira2Calendar
+
+Call `Jira2Calendar` with the format: `JiraCloudName;CalendarName`. JiraCloudName is used to construct the URL to jira issues in the calendar event.
+
+![Jira2Calendar](images/usage-jira.png)
+
+
 ## Changelog
 
-### 2023-09-07 [icloud link](https://www.icloud.com/shortcuts/cdfc2070bf7f4c159a1ad6e8a1b66a90)
+### 2023-09-07
 
 - Improved the license notes and probably some unknown refactoring as it's hard to trace back due to binary format
+- Reminders2Calendar now accepts a tuple of format `RemindersName;CalendarName`, with this the Reminders List name can be different than the calendar name.
+- Added JiraCalendar for similar experience if you have Jira
 
-### 2023-06-21 [icloud link](https://www.icloud.com/shortcuts/6a2dc180452241409f4ecf067380693a)
+### 2023-06-21
 
 - bugfix to mark completed reminders older than today
 
-### 2023-06-18 [icloud link](https://www.icloud.com/shortcuts/310cffa3a4254701bb8ead6ee33e8854)
+### 2023-06-18
 
 - refactor to use wide range of calendar event search to simplify the logic. No need to do 2 searches anymore
 
-### 2023-05-19 [icloud link](https://www.icloud.com/shortcuts/8d90c9b4839945df926a8102d8f8d556)
+### 2023-05-19
 - Fixes duplication of completed reminders in the calendar
 
-### 2023-05-18 [icloud link](https://www.icloud.com/shortcuts/8c7790366cec41828b51a3b806abc4d2)
+### 2023-05-18
 - Fixes event duplication
 
