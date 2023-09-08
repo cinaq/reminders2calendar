@@ -36,11 +36,16 @@ Call `Jira2Calendar` with the format: `JiraCloudName;CalendarName`. JiraCloudNam
 
 ## Changelog
 
+### 2023-09-08
+
+- improved input feedback [Jira2Calendar]
+- better calendar name parsing and usage [Jira2Calendar]
+
 ### 2023-09-07
 
 - Improved the license notes and probably some unknown refactoring as it's hard to trace back due to binary format
 - Reminders2Calendar now accepts a tuple of format `RemindersName;CalendarName`, with this the Reminders List name can be different than the calendar name.
-- Added JiraCalendar for similar experience if you have Jira
+- Added Jira2Calendar for similar experience if you have Jira
 
 ### 2023-06-21
 
