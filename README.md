@@ -36,6 +36,10 @@ Call `Jira2Calendar` with the format: `JiraCloudName;CalendarName`. JiraCloudNam
 
 ## Changelog
 
+### 2023-09-12
+
+- Fix duplication of events. Finding calendar events in the next 14 days does not include the current day [Jira2Calendar]
+
 ### 2023-09-08
 
 - improved input feedback [Jira2Calendar]
