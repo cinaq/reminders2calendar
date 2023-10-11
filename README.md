@@ -1,4 +1,4 @@
-# Reminders2Calendar
+# Reminders2Calendar test
 
 This repo contains a collection of scripts that synchronizes reminders from Reminders.app to Calendar.app. It works best on iOS. 
 
