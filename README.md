@@ -1,5 +1,7 @@
 # Reminders2Calendar
 
+> This repo has been replaced by https://github.com/cinaq/apple-shortcuts as we are expanding the scope of the scripts to include more useful automation.
+
 This repo contains a collection of scripts that synchronizes reminders from Reminders.app to Calendar.app. It works best on iOS. 
 
 Background info located at https://cinaq.com/blog/2022/11/22/the-missing-link-between-reminders-and-calendar-app-on-ios/
